@@ -4,10 +4,10 @@ const a = "Hello, World!"
 
 // Variaveis de escopo global para todos os package main
 var (
-	b bool
-	c int
-	d string
-	e float64
+	b bool    = true
+	c int     = 10
+	d string  = "Wesley"
+	e float64 = 1.2
 )
 
 //Variaveis declaradas sem valor inicial, o GO da um valor default
