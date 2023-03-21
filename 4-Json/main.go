@@ -8,7 +8,7 @@ import (
 type Conta struct {
 	Numero int `json: numero` //Singifica que um "numero" no JSON se refere ao Saldo
 	Saldo  int `json: saldo`  //Singifica que um "saldo" no JSON se refere ao Saldo
-	//Pode colocar `json: -` parar ignorar algo especifico
+	//Pode colocar `json: -` parar ignorar algum atributo especifico
 }
 
 func main() {
